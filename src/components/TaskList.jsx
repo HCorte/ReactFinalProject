@@ -165,7 +165,13 @@ function TaskList() {
                         key={task.id}
                         md={4}
                     >
-                        <Card>
+                        <Card
+                            style={{
+                                backgroundColor: task.done
+                                    ? '#d4edda'
+                                    : 'white', // Bootstrap "success" background color
+                            }}
+                        >
                             <Card.Body>
                                 <Form.Check
                                     type="checkbox"

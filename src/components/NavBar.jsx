@@ -34,7 +34,7 @@ function NavBar() {
                             >
                                 List Of Tasks
                             </Nav.Link>
-                            <Nav.Link
+                            {/* <Nav.Link
                                 as={NavLink}
                                 to="/create-task"
                                 className={({ isActive }) =>
@@ -42,7 +42,7 @@ function NavBar() {
                                 }
                             >
                                 Create Task
-                            </Nav.Link>
+                            </Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
